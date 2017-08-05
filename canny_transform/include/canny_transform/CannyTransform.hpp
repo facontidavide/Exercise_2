@@ -18,5 +18,6 @@ private:
   image_transport::ImageTransport it_;
   image_transport::Subscriber image_sub_;
   image_transport::Publisher image_pub_;
+  int low_threshold_;
 
 };
